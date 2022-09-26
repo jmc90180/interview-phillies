@@ -17,7 +17,7 @@ If desired, user can pass an CLI argument to specify a different URL to get the 
 ```    
 
 ### Using docker 
-If you have docker installed in your maching, it's preferrable as the container would have the matching environment used for development. You can run the following commands in your CLI, make sure docker is running
+If you have docker installed in your machine, it's preferrable as the container would have the matching environment used for development. You can run the following commands in your CLI, make sure docker is running
 
 ```
     $ docker build  -t solution:latest .
