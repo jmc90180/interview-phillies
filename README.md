@@ -1,12 +1,16 @@
 ## How to run
 Instructions to run
 
+
+
 Providing a couple of options to run:
 - Running it in the CLI 
 - Using docker, which is preferred to avoid any environment issues, setup issues, etc
 
 ## Running it in the CLI
 Make sure to have python 3.10 installed in your environment and run the following commands in your CLI (the python and pip commands could be python3 and pip3 depending on your environment)
+
+If desired, user can pass an CLI argument if desired to specify a different URL to get the data, program will fail is more than one user argument is passed
 
 ```
     $ pip install -r requirements.txt 
@@ -23,6 +27,9 @@ If you have docker installed in your maching, it's preferrable as the container 
     $ docker exec -it solution-runner-container bash
 ```
 This will open up a build a docker container, start and open a bash session with python installed where then you can run to get the output
+
+If desired, user can pass a CLI argument if desired to specify a different URL to get the data, program will fail is more than one user argument is passed
+
 
 ```
     $ python solution.py
